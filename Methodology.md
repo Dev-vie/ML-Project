@@ -1,4 +1,4 @@
-# Methodology
+## Methodology
 
 - Preprocessing the dataset (cleaning, text normalizing, normalizing amounts)
 - Feature engineering (date/time, transaction descriptions, amount patterns)

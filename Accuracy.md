@@ -1,4 +1,4 @@
-# Accuracy and Evaluation
+# Accuracy
 
 ## What is Accuracy?
 - In classification problems like ours (categorizing expenses), accuracy measures how many predictions our model got correct out of all predictions made.

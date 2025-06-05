@@ -9,6 +9,6 @@
 - As for our target accuracy for this project is 80% or above.
 
 ## Accuracy Results
-- Logistic Regression: 0.9459 or 94.59%
+- Logistic Regression: 0.9405 or 94.05%
 - Random Forest: 0.9459 or 94.59%
 - SVM: 0.9351 or 93.51%

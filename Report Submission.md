@@ -30,4 +30,6 @@ This project will have an societal impact by assisting people manage their budge
 - Technique: Accuracy, Classification Report, Confusion Matrix.
 ## Accuracy
 - Target for accuracy are 80% or above.
-- Logistic Regression: 
+- Logistic Regression: 0.9405 or 94.05%
+- Random Forest: 0.9459 or 94.59%
+- SVM: 0.9351 or 93.51%

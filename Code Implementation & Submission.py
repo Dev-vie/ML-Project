@@ -8,3 +8,10 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+
+# Load Dataset
+url = 'Dataset/expenses_income_summary.csv'
+df = pd.read_csv(url)
+df.head()
+
+#

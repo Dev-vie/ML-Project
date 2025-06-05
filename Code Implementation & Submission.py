@@ -19,13 +19,14 @@ df.head()
 print(df.isnull().sum())
 
 # Drop rows with missing data
-df_expense = df[df['type'] == 'EXPENSE'].dropna(subset=['title', 'category', 'amount'])
+df = df.drop(columns=["transfer-amount", "transfer-currency","to-account","receive-amount","receive-currency","description","due-date"])
+df_expense = df[df['type'] == 'EXPENSE'].dropna(subset=['title', 'category','amount'])
 print(df_expense.head())
+print(df_expense.isnull().sum())
 
 # Save cleaned dataset
-df.to_csv('cleaned_expenses.csv', index=True)
+df_expense.to_csv('cleaned_expenses.csv', index=True)
 files.download('cleaned_expenses.csv')
-
 # Feature
 X = df_expense['title'] # The input feature
 y = df_expense['category'] # The target class

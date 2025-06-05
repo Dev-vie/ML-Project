@@ -10,7 +10,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
 # Load Dataset
-url = 'Dataset/expenses_income_summary.csv'
+url = 'https://github.com/Dev-vie/ML-Project/blob/16dc61002041f707bacdd0fde76a3b8a81088077/Dataset/expenses_income_summary.csv'
 df = pd.read_csv(url)
 df.head()
 

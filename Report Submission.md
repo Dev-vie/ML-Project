@@ -33,3 +33,12 @@ This project will have an societal impact by assisting people manage their budge
 - Logistic Regression: 0.9405 or 94.05%
 - Random Forest: 0.9459 or 94.59%
 - SVM: 0.9351 or 93.51%
+## Hyperparameter Tuning
+- Used `GridSearchCV` with cross-validation.
+- Tuned parameters like `C`, `max_depth`, `n_estimators`, `gamma`.
+- Helped optimize each model's performance and avoid overfitting.
+## Code Implementation
+- Using Python Programming
+- Hosted on Google Colab and Github
+- Libraries: `pandas`, `scikit-learn`, `matplotlib`, `seaborn` 
+  

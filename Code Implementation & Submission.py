@@ -24,9 +24,21 @@ df_expense = df[df['type'] == 'EXPENSE'].dropna(subset=['title', 'category','amo
 print(df_expense.head())
 print(df_expense.isnull().sum())
 
+# Dataset Visualization
+# Class Distribution
+plt.figure(figsize=(6, 3))
+df['category'].value_counts().plot(kind='bar', color='lightgreen')
+plt.title('Expense Categories')
+plt.xlabel('Category')
+plt.ylabel('Count')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+
 # Save cleaned dataset
 df_expense.to_csv('cleaned_expenses.csv', index=True)
 files.download('cleaned_expenses.csv')
+
 # Feature
 X = df_expense['title'] # The input feature
 y = df_expense['category'] # The target class
